@@ -189,3 +189,38 @@ body {
   text-align: left;
   flex: 1;
 }
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #f0e9d1;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 0.9rem;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #f0e9d1;
+}
+.quick-links ul{
+    list-style: none;
+    padding-left: 5%;
+}
+.social-icons a {
+  margin-right: 15px;
+  display: inline-block;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #d9c19a;
+  margin-top: 20px;
+}
