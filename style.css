@@ -172,4 +172,7 @@ color:#3a301b;
 }
 .footer {
   grid-area: footer;
+  background-color: #3a301b;
+  color: #ffffff;
+  padding: 3% 5%;
 }
