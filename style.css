@@ -51,12 +51,12 @@ body {
 .hero h1 {
   padding: 5% 0;
   font-size: 3rem;
-  color:#3a301b;
+  color: #3a301b;
 }
 .hero p {
   padding-bottom: 5%;
   line-height: 25px;
-  color:#3a301b;
+  color: #3a301b;
 }
 .hero button {
   margin-left: 25%;
@@ -70,109 +70,122 @@ body {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.services{
-    padding: 10% 3%;
-    color:#3a301b;
-    text-align: center;
-    background-color: #F0E9D1;
+.services {
+  padding: 10% 3%;
+  color: #3a301b;
+  text-align: center;
+  background-color: #f0e9d1;
 }
-.service-content h2{
-    margin-bottom: 3%;
-    font-size: 2rem;
+.service-content h2 {
+  margin-bottom: 3%;
+  font-size: 2rem;
 }
-.service-content p{
-    margin: 3% 10%;
+.service-content p {
+  margin: 3% 10%;
 }
-.service-content a{
-    color:#3a301b;
+.service-content a {
+  color: #3a301b;
 }
-.service-cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:flex-start;
-    align-items: center;
-    gap:1%;
-    margin-top: 3%;
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1%;
+  margin-top: 3%;
 }
-.card{
-    text-align: center;
-    margin: 2% 0;
-    padding: 2% 0;
-    color:#ffffff;
-    background-color: #3a301b;
+.card {
+  text-align: center;
+  margin: 2% 0;
+  padding: 2% 0;
+  color: #ffffff;
+  background-color: #3a301b;
 }
-.card h3{
-    padding: 3% 0;
+.card h3 {
+  padding: 3% 0;
 }
-.card p{
-    margin:3%;
+.card p {
+  margin: 3%;
 }
-.card img{
-    width: 25rem;
-    height: 20rem;
-    align-self: center;
+.card img {
+  width: 25rem;
+  height: 20rem;
+  align-self: center;
 }
-.about{
-    padding: 10%;
-    text-align: center;
-    background-color: #3a301b;
-    color:#ffffff;
+.about {
+  padding: 10%;
+  text-align: center;
+  background-color: #3a301b;
+  color: #ffffff;
 }
-.about h2{
-    margin-bottom: 5%;
+.about h2 {
+  margin-bottom: 5%;
 }
-.about-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:5%;
-    text-align: left;
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  text-align: left;
 }
-.about-content img{
-    width:25rem;
+.about-content img {
+  width: 25rem;
 }
 .aside {
   grid-area: aside;
 }
-.offer{
-    background-color: #3a301b;
-    border-top-left-radius: 45%;
-    border-top-right-radius: 45%;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    color:#ffffff;
-    padding: 10% 5%;
-    margin-left: 2%;
-    margin-top: 10%;
-    text-align: center;
+.offer {
+  background-color: #3a301b;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  color: #ffffff;
+  padding: 10% 5%;
+  margin-left: 2%;
+  margin-top: 10%;
+  text-align: center;
 }
-.offer .circle{
-    width:5rem;
-    height:5rem;
-    background-color: #ffffff;
-    border-radius: 50%;
-    margin-left: 30%;
-    margin-bottom: 10%;
+.offer .circle {
+  width: 5rem;
+  height: 5rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 30%;
+  margin-bottom: 10%;
 }
-.offer h2{
-    margin:10% 5%;
+.offer h2 {
+  margin: 10% 5%;
 }
-.offer p{
-    font-size: 12px;
-    line-height: 1.5rem;
+.offer p {
+  font-size: 12px;
+  line-height: 1.5rem;
 }
-.offer button{
-margin:20% 0;
-padding: 5% 10%;
-border-radius: 10px;
-border:1px solid #F0E9D1;
-font-size: 1.2rem;
-font-weight: bold;
-color:#3a301b;
+.offer button {
+  margin: 20% 0;
+  padding: 5% 10%;
+  border-radius: 10px;
+  border: 1px solid #f0e9d1;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #3a301b;
 }
 .footer {
   grid-area: footer;
   background-color: #3a301b;
   color: #ffffff;
   padding: 3% 5%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid #f0e9d1;
+}
+
+.footer-section {
+  text-align: left;
+  flex: 1;
 }
