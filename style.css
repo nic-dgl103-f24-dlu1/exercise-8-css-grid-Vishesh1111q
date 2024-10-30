@@ -74,12 +74,12 @@ body {
     padding: 10% 3%;
     color:#3a301b;
     text-align: center;
-    background-color: #EBE2C3;
+    background-color: #F0E9D1;
 }
 .service-content h2{
     margin-bottom: 3%;
+    font-size: 2rem;
 }
-
 .service-content p{
     margin: 3% 10%;
 }
@@ -111,6 +111,25 @@ body {
     width: 25rem;
     height: 20rem;
     align-self: center;
+}
+.about{
+    padding: 10%;
+    text-align: center;
+    background-color: #3a301b;
+    color:#ffffff;
+}
+.about h2{
+    margin-bottom: 5%;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5%;
+    text-align: left;
+}
+.about-content img{
+    width:25rem;
 }
 .aside {
   grid-area: aside;
