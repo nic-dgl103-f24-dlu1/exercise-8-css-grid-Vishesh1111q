@@ -59,6 +59,7 @@ body {
   color:#3a301b;
 }
 .hero button {
+  margin-left: 25%;
   padding: 3% 7%;
   border: 1px solid #3a301b;
   border-radius: 10px;
@@ -68,6 +69,47 @@ body {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.services{
+    padding: 10% 0;
+    color:#3a301b;
+    text-align: center;
+}
+.service-content h2{
+    margin-bottom: 3%;
+}
+
+.service-content p{
+    margin: 3% 10%;
+}
+.service-content a{
+    color:#3a301b;
+}
+.service-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    gap:2%;
+    margin-top: 3%;
+}
+.card{
+    text-align: center;
+    margin: 3% 0;
+    padding: 3% 1%;
+    color:#ffffff;
+    background-color: #3a301b;
+}
+.card h3{
+    padding: 3% 0;
+}
+.card p{
+    margin:3%;
+}
+.card img{
+    width: 25rem;
+    height: 20rem;
+    align-self: center;
 }
 .aside {
   grid-area: aside;
