@@ -12,6 +12,7 @@ body {
     "aside main main"
     "footer footer footer";
   font-family: "Merriweather", serif;
+  gap:5px;
 }
 /*Navbar*/
 .header {
@@ -62,7 +63,7 @@ body {
   color: #3a301b;
 }
 .hero button {
-  margin-left: 25%;
+  
   padding: 3% 7%;
   border: 1px solid #3a301b;
   border-radius: 10px;
