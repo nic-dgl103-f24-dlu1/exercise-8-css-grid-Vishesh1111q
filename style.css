@@ -71,9 +71,10 @@ body {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .services{
-    padding: 10% 0;
+    padding: 10% 3%;
     color:#3a301b;
     text-align: center;
+    background-color: #EBE2C3;
 }
 .service-content h2{
     margin-bottom: 3%;
@@ -90,13 +91,13 @@ body {
     flex-wrap: wrap;
     justify-content:flex-start;
     align-items: center;
-    gap:2%;
+    gap:1%;
     margin-top: 3%;
 }
 .card{
     text-align: center;
-    margin: 3% 0;
-    padding: 3% 1%;
+    margin: 2% 0;
+    padding: 2% 0;
     color:#ffffff;
     background-color: #3a301b;
 }
